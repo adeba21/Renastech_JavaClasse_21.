@@ -8,7 +8,7 @@ public class P1_withBoys {
 //Write a return method that can reverse  String
 //Ex: Reverse("ABCD"); ==> DCBA
 
-  reverse("Demhat");
+  reverse("ABCD");
 
     }
 
