@@ -7,6 +7,7 @@ public class pp {
         for (int i = 0; i < test.length(); i++){
             if (temp.indexOf(test.charAt(i)) == - 1){
                 temp = temp + test.charAt(i);
+
             }
         }
         System.out.println(temp + " ");
