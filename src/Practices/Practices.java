@@ -12,6 +12,7 @@ public class Practices {
         for (int j=0; j<i; j++){
             sum+=ethem[j]/i;
 
+
         }
         System.out.println(sum);
 
