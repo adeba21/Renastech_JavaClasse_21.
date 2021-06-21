@@ -31,7 +31,21 @@ public class C7_listPractice {
 
         System.out.println(maximum);
 
+//create logic that will print the minumum from arraylist
 
-        //create logic that will print the minumum from arraylist
+        //int minumum=numberList.get(0);
+        int minumum= Integer.MAX_VALUE; //2147483647
+        System.out.println(Integer.MAX_VALUE);
+
+        for (int i =0 ; i< numberList.size() ;i++){
+            if(numberList.get(i) < minumum){
+                minumum = numberList.get(i);
+            }
+        }
+
+        System.out.println(minumum);
+
+
     }
-}
+    }
+

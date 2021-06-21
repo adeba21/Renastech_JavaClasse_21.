@@ -9,11 +9,11 @@ public class C3_Practice {
         Integer int1=number; // autoboxing ;; Primitivie  to assign wrapper  // wrapper object
         Byte b1=25; //wrapper object
 
-        byte b2=b1; //primitive    ;; wrapper to assign primitive unboxing    //25
-        int i10=b1;  //primitive    ;; wrapper to assign primitive unboxing   //25
+        byte b2=b1; // primitive    ;; wrapper to assign primitive unboxing    //25
+        int i10=b1;  // primitive    ;; wrapper to assign primitive unboxing   //25
 
-        boolean b33= i10==b1; //primitive //true
-        //equal operator will only check the value
+        boolean b33= i10==b1; // primitive //true
+        // equal operator will only check the value
 
         Boolean bool=b33; // wrapper   ;;// autoboxing ;; Primitivie  to assign wrapper
         Boolean bool1=i10==b1; //wrapper

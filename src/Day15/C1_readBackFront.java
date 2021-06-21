@@ -16,8 +16,8 @@ public class C1_readBackFront {
         //0,1,2,3,4,5  index numbers
         //total length is 6
         //last index will be 5
-        //in this case to achive for same result from front and back we need compare index numbers
-        // frontread=back read
+        //in this case to achieve for same result from front and back we need compare index numbers
+        // front-read=back read
         //numbers[0]==numbers[5]
         //numbers[1]==numbers[4]
         //numbers[2]==numbers[3]

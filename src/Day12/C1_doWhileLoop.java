@@ -16,6 +16,7 @@ public class C1_doWhileLoop {
         do { // will be printed once without checking while condtion
             System.out.println("JAva");
             System.out.println(number);
+            number++;
 
         }while (number < 10); // false
 

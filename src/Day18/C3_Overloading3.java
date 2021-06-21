@@ -8,7 +8,7 @@ public class C3_Overloading3 {
         String [] names= {"serhat" , "ceylan" ,"heshu" , "burhan"};
         char [] letters={'a' , 'f' , 'b' , 'x' ,'c'};
 
-        //lets import some librarry import java.util.Arrays;
+        //lets import some library import java.util.Arrays;
         Arrays.sort(numbers);
         Arrays.sort(names);
         Arrays.sort(letters);
@@ -19,7 +19,7 @@ public class C3_Overloading3 {
 
 
         System.out.println(concatStrings("hello" ," world"));
-        System.out.println(concatStrings("hello "," world" , " Java is here"));
+        System.out.println(concatStrings("hello "," world" , " Java is here","Demhat"));
     }
 
 
@@ -28,7 +28,7 @@ public class C3_Overloading3 {
         return str1.concat(str2);
     }
 
-    public static String concatStrings(String str1,String str2,String str3){
+    public static String concatStrings(String str1,String str2,String str3, String str4){
 
         return str1.concat(str2).concat(str3);
     }

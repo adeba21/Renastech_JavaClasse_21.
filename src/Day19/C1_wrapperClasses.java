@@ -44,13 +44,13 @@ public class C1_wrapperClasses {
         System.out.println(myDouble);
         System.out.println(ch);
 
-        short sh1=100;   //primitive data
+        short sh1=13623;   //primitive data
         int i2= sh1;   //primitive data
 
         Integer int1= i2; //wrapper class
         //Integer int2 = sh1; // Integar is another form of int primitive datat type
         // you cant assign other primitive data types
-
+        System.out.println(int1);
 
 
         Byte b1=10;//wrapper class

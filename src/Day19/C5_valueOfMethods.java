@@ -7,7 +7,7 @@ public class C5_valueOfMethods {
 
     public static void main(String[] args) {
 
-        String str="25";
+        String str="2528";
 
         int number=Integer.parseInt(str);
         Integer number2=Integer.valueOf(str);
